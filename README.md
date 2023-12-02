@@ -44,5 +44,5 @@ math
 start date: nov 22, 2023  
 target end date: before dec 2024
 
-project paused: dec 02, 2023
+project paused: dec 02, 2023  
 reason: more urgent school project
