@@ -14,7 +14,8 @@ for machine learning
 
 **tech stack**  
 python (manipulation)  
-pandas/matplotlib/plotly (visualization)  
+pandas(tabular data processing)
+matplotlib/plotly (visualization)  
 tensorflow (ml)  
 html css javascript (web)  
 three.js/d3.js (web 3d)  
