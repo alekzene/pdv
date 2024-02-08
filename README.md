@@ -49,3 +49,7 @@ project paused: dec 02, 2023
 reason: more urgent school project
 
 project resumed: dec 25, 2023
+
+UPDATE (As of February 08, 2023)
+* Decided to shift from EDA to a full-blown end-to-end data science project.
+* February 02, 2023: Brainstormed for potential problems to solve.
