@@ -1,5 +1,4 @@
-# On-Premise H1B Visa Data Analysis Tool
-<br>
+# On-Premise H1B Visa Data Analysis Tool  
 
 ### Tools Used  
 * Python  
@@ -7,8 +6,6 @@
 * Visual Studio Code  
 * Windows Subsystem for Linux  
 * SQL Server 2022 (Developer)  
-
-<br>
 
 ### Log  
 Jun 19  
