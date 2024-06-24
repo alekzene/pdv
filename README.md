@@ -8,8 +8,11 @@
 * SQL Server 2022 (Developer)  
 
 ### Log  
-Jun 19: set up environment  
-Jun 25: data gathering  
+* Jun 19: set up environment  
+* Jun 25: data gathering  
 
 ### Concepts  
 * H1B Visas
+
+### Data Source
+* United States Citizenship and Immigration Services
