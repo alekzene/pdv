@@ -9,7 +9,7 @@
 
 ### Log  
 * Jun 19: set up environment  
-* Jun 25: data gathering  
+* Jun 24: data gathering, set up ftp server  
 
 ### Concepts  
 * H1B Visas  
