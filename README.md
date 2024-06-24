@@ -1,5 +1,4 @@
-On-Premise H1B Visa Data Analysis Tool
-
+# On-Premise H1B Visa Data Analysis Tool
 <br>
 
 ### Tools Used  
@@ -13,7 +12,7 @@ On-Premise H1B Visa Data Analysis Tool
 
 ### Log  
 Jun 19  
-* set up environment
+* set up environment  
 Jun 25  
 * 
 
