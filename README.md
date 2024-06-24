@@ -12,7 +12,11 @@
 * Jun 25: data gathering  
 
 ### Concepts  
-* H1B Visas
+* H1B Visas  
+* FTP  
 
-### Data Source
-* United States Citizenship and Immigration Services
+### Data Source  
+* United States Citizenship and Immigration Services  
+
+### Recommendations  
+* Migrate to cloud
