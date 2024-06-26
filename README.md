@@ -9,7 +9,9 @@
 
 ### Log  
 * Jun 19: set up environment  
-* Jun 24: data gathering, set up ftp server  
+* Jun 24: data gathering, setup wsl  
+* Jun 25: set up ftp server  
+* Jun 26:   
 
 ### Concepts  
 * H1B Visas  
