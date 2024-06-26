@@ -25,11 +25,23 @@ def upload_to_ftp(ftp: FTP_TLS, source: Path):
     with open(source, "rb") as s: # read binary to preserve data format
         ftp.storbinary(f"STOR {source.name}", s)
 
-# main script
-if __name__=="__main__":
+# delete source
+def delete_source(source: Path):
+    remove(source)
+
+# data pipeline
+def pipeline():
     ftp = get_ftp()
     upload_to_ftp(ftp, Path("employer-information.csv"))
-
     df = pd.read_csv("employer-information.csv", encoding="utf-16", sep='\t')
     print(df.head())
+    delete_source(Path("employer-information.csv"))
+
+# main script
+if __name__=="__main__":
+
+    pipeline()
+
+    
+
     
