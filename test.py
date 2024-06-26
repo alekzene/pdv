@@ -8,6 +8,7 @@ from os import environ, remove
 from pathlib import Path
 from ftplib import FTP_TLS
 
+# get ftp details
 def get_ftp() -> FTP_TLS: # -> for type hint for the expected return type
     FTP_HOST = environ["FTP_HOST"]
     FTP_USER = environ["FTP_USER"]
@@ -19,5 +20,16 @@ def get_ftp() -> FTP_TLS: # -> for type hint for the expected return type
     ftp.prot_p() # establish secure data connection
     return ftp
 
+# upload source to ftp
+def upload_to_ftp(ftp: FTP_TLS, source: Path):
+    with open(source, "rb") as s: # read binary to preserve data format
+        ftp.storbinary(f"STOR {source.name}", s)
+
+# main script
 if __name__=="__main__":
-    print(get_ftp())
+    ftp = get_ftp()
+    upload_to_ftp(ftp, Path("employer-information.csv"))
+
+    df = pd.read_csv("employer-information.csv", encoding="utf-16", sep='\t')
+    print(df.head())
+    
