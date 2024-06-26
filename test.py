@@ -32,16 +32,15 @@ def delete_source(source: Path):
 # data pipeline
 def pipeline():
     ftp = get_ftp()
-    upload_to_ftp(ftp, Path("employer-information.csv"))
-    df = pd.read_csv("employer-information.csv", encoding="utf-16", sep='\t')
+    upload_to_ftp(ftp, Path("employer-info-2024.csv"))
+    df = pd.read_csv("employer-info-2024.csv", encoding="utf-16", sep='\t')
     print(df.head())
-    delete_source(Path("employer-information.csv"))
 
 # main script
 if __name__=="__main__":
 
-    pipeline()
+    schedule.every().day.at("00:00").do(pipeline)
 
-    
-
-    
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
