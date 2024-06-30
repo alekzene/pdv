@@ -1,4 +1,5 @@
 # On-Premise H1B Visa Data Analysis Tool  
+An end-to-end data project where I try to put on four different hats: data engineer, data analyst, data scientist, machine learning engineer  
 
 ### Tools Used  
 * Python  
@@ -29,3 +30,8 @@
 * Jun 25: set up ftp server  
 * Jun 26: schedule data retrieval pipeline   
 * Jun 30: connect ftp to postgresql  
+
+### Points for Improvement  
+* Triple check files for sensitive information before pushing to the repository  
+* Study the best practices for data pipelines  
+* Familiarize self with Linux / Ubuntu  
